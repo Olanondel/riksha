@@ -1,0 +1,80 @@
+.cart {
+  align-items: center;
+  background: #F5F5F5;
+  border-radius: 6px;
+  padding: 14px 17px;
+  position: relative;
+
+  &__control {
+    display: flex;
+    align-items: center;
+  }
+
+  &__balance {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+  }
+  &__separator {
+    color: #fff;
+    padding: 0 19px;
+  }
+  &__button {
+    position: relative;
+  }
+
+  &__foods-indicator {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    width: 16px;
+    height: 16px;
+    top: -8px;
+    right: -8px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    background: #E07153;
+    color: #fff;
+  }
+  &__wrapper {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    height: 328px;
+    max-width: 624px;
+    width: 624px;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 12px 28px;
+    z-index: 2;
+    background: #fff;
+    opacity: 0;
+    transition: opacity .6s, transform .8s;
+
+    &--open {
+      opacity: 1;
+      transform: translateY(10px);
+    }
+  }
+
+  &__foods {
+    flex: 1 1 auto;
+    overflow-y: auto;
+
+    &__empty {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  &__controls {
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

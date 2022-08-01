@@ -8,7 +8,6 @@ function App() {
     <div className="app">
       <Header />
       <main className="main">
-        <Error />
       </main>
       <Footer />
     </div>

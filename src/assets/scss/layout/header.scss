@@ -1,9 +1,15 @@
 .header {
   min-height: 172px;
+  position: relative;
 
   &__top {
     min-height: 89px;
-    padding-left: 196px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__top-inner {
+    padding-left: 194px;
   }
 
   &__top-content {
@@ -12,24 +18,22 @@
     align-items: center;
   }
 
-  &__logo-wrapper {
-    position: relative;
-    margin-left: -196px;
-  }
-
   &__logo {
     position: absolute;
-    left: 0;
     top: 8px;
-    max-width: 134px;
   }
 
   &__info {
     display: flex;
     flex-wrap: wrap;
-    gap: 0 48px;
     font-size: 14px;
     line-height: 17px;
+    flex: 0 1 514px;
+    justify-content: space-between;
+  }
+
+  &__info-item {
+    padding: 0 8px;
   }
 
   &__tel {}
@@ -46,9 +50,32 @@
     color: #B7B7B7;
   }
 
+  &__actions {
+    display: flex;
+  }
+
+  &__profile {
+    background: #F5F5F5;
+    border-radius: 6px;
+    padding: 0 17px;
+    margin-left: 24px;
+  }
+
   &__bottom {
     background: #F5F5F5;
     min-height: 83px;
-    padding-left: 196px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__bottom-inner {
+    padding-left: 194px;
+  }
+
+  &__categories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
