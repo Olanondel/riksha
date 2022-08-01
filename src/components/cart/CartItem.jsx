@@ -6,7 +6,7 @@ const CartItem = () => {
   return (
     <div className="cart-item">
       <div className="cart-item__preview">
-        <img src={pizza} className="cart-item__image" />
+        <img src={pizza} className="cart-item__image" alt="category" />
         <div className="cart-item__info">
           <div className="cart-item__title">Пицца “Рикша”</div>
           <div className="cart-item__type">30 см * <span className="cart-item__variants">50 cm</span></div>

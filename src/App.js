@@ -1,6 +1,7 @@
-import Error from "./pages/Error";
 import Footer from "./layout/Footer";
 import Header from "./layout/Header";
+import GoTop from "./components/GoTop";
+import MainSlider from "./components/MainSlider";
 
 
 function App() {
@@ -8,8 +9,11 @@ function App() {
     <div className="app">
       <Header />
       <main className="main">
+        <MainSlider />
       </main>
       <Footer />
+
+      { false && <GoTop /> }
     </div>
   );
 }
