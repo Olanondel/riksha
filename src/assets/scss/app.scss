@@ -1,0 +1,32 @@
+@import "variables";
+@import "fonts";
+@import "~normalize.css";
+@import "components";
+@import "ui";
+@import "layout";
+@import "base";
+
+html, body, #root, .app {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font: 16px "TT Interfaces";
+  color: #1B1B1B;
+}
+
+.container {
+  max-width: 1254px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 1 auto;
+}
