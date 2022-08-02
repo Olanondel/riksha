@@ -1,0 +1,29 @@
+.benefits {
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__benefit {
+    text-align: center;
+  }
+}
+
+.benefit {
+  font-size: 14px;
+
+  &__icon {
+    margin-bottom: 12px;
+  }
+
+  &__title {
+    font-weight: 700;
+    line-height: 18px;
+    margin-bottom: 2px;
+  }
+
+  &__text {
+    line-height: 17px;
+  }
+}

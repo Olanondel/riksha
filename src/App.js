@@ -2,6 +2,8 @@ import Footer from "./layout/Footer";
 import Header from "./layout/Header";
 import GoTop from "./components/GoTop";
 import MainSlider from "./components/MainSlider";
+import Benefits from "./components/Benefits";
+import Gallery from "./components/Gallery";
 
 
 function App() {
@@ -9,7 +11,11 @@ function App() {
     <div className="app">
       <Header />
       <main className="main">
-        <MainSlider />
+        <MainSlider className="app__main-slider" />
+
+        <Benefits className="app__benefits" />
+
+        <Gallery className="app__gallery" />
       </main>
       <Footer />
 

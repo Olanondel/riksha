@@ -1,0 +1,9 @@
+.my-btn {
+  background: #E07153 url("../images/btn-bg.png") no-repeat center / cover;
+  color: #fff;
+  cursor: pointer;
+
+  &__icon {
+    margin-right: 16px;
+  }
+}

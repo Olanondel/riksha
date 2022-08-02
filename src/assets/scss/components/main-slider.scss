@@ -12,6 +12,7 @@
     position: relative;
     overflow: visible;
     margin-bottom: 128px;
+    border-radius: 20px;
   }
 
   &__offer {
@@ -22,10 +23,6 @@
     max-width: 491px;
     width: 100%;
     margin-bottom: 8px;
-  }
-
-  &__accent {
-    color: #E07153;
   }
 
   &__price {
