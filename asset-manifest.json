@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/riksha/static/css/main.4d55a2af.css",
-    "main.js": "/riksha/static/js/main.8241781b.js",
+    "main.css": "/riksha/static/css/main.bae6326c.css",
+    "main.js": "/riksha/static/js/main.c2aff771.js",
     "static/media/about-1.jpg": "/riksha/static/media/about-1.1f3bd3487f729bd91ec3.jpg",
     "static/media/6.jpg": "/riksha/static/media/6.c86b97fa1896c5d9c5be.jpg",
     "static/media/5.jpg": "/riksha/static/media/5.98d7f7a37dd00b175703.jpg",
@@ -9,11 +9,21 @@
     "static/media/about-2.jpg": "/riksha/static/media/about-2.272a6234702b3faa5523.jpg",
     "static/media/3.jpg": "/riksha/static/media/3.de47b98a0eb23a80491c.jpg",
     "static/media/2.jpg": "/riksha/static/media/2.10a3bea255a861ad5565.jpg",
+    "static/media/pizza.jpg": "/riksha/static/media/pizza.c71c4cad5e8d94387932.jpg",
     "static/media/1.jpg": "/riksha/static/media/1.c267ecf50bc69673ac73.jpg",
+    "static/media/combo-1.jpg": "/riksha/static/media/combo-1.7b59a3034f776b4d5524.jpg",
+    "static/media/food-1.png": "/riksha/static/media/food-1.8a298d8e46fdb67aa7ec.png",
+    "static/media/top-1.png": "/riksha/static/media/top-1.8a298d8e46fdb67aa7ec.png",
+    "static/media/top-3.png": "/riksha/static/media/top-3.8a298d8e46fdb67aa7ec.png",
+    "static/media/combo-3.jpg": "/riksha/static/media/combo-3.9c6d86f80b4fb18ba3dc.jpg",
+    "static/media/top-2.png": "/riksha/static/media/top-2.f63490c5b92fe4e3a8ae.png",
     "static/media/cart-empty.svg": "/riksha/static/media/cart-empty.116c5cb88ee9019a6e3e936aa8c741ac.svg",
+    "static/media/combo-2.jpg": "/riksha/static/media/combo-2.15c040eebc512bbbbbdc.jpg",
     "static/media/slide.png": "/riksha/static/media/slide.492d24b2851aa56ee8b6.png",
     "static/media/about-title.svg": "/riksha/static/media/about-title.ed520057cc8f491b2d00.svg",
     "static/media/events.svg": "/riksha/static/media/events.4dcf37d45ba6e4108d63.svg",
+    "static/media/category.svg": "/riksha/static/media/category.4ad8962f8d40e48835fa.svg",
+    "static/media/combo.svg": "/riksha/static/media/combo.4f7f4b603179ec41fd28.svg",
     "static/media/event-1.png": "/riksha/static/media/event-1.cea7b33a15921db8bd70.png",
     "static/media/TTInterfaces-Medium.woff2": "/riksha/static/media/TTInterfaces-Medium.2fdfc5bc3c36af143eab.woff2",
     "static/media/TTInterfaces-Bold.woff2": "/riksha/static/media/TTInterfaces-Bold.c753381c4f2f1f21d92f.woff2",
@@ -23,10 +33,10 @@
     "static/media/event-3.png": "/riksha/static/media/event-3.01ac72094eb9cbce5224.png",
     "static/media/logo.png": "/riksha/static/media/logo.46fd1c8f8e391b6714a8.png",
     "static/media/btn.png": "/riksha/static/media/btn.0549250044d0e441ea7b.png",
+    "static/media/combo-bg.png": "/riksha/static/media/combo-bg.87513528b181e82811a6.png",
     "static/media/header_logo.png": "/riksha/static/media/header_logo.cc989e8ce5b80b961202.png",
     "static/media/details-btn-bg.png": "/riksha/static/media/details-btn-bg.f55b7b499a0c739a016f.png",
     "static/media/btn-bg.png": "/riksha/static/media/btn-bg.f993b3577b1fadaebcac.png",
-    "static/media/pizza.jpg": "/riksha/static/media/pizza.c71c4cad5e8d94387932.jpg",
     "static/media/benefit-1.svg": "/riksha/static/media/benefit-1.64558f8a7f3b0bb36c91a3886dccdb8d.svg",
     "static/media/benefit-2.svg": "/riksha/static/media/benefit-2.bc8ad7086089d2e0aa63e9ac6b25c6c6.svg",
     "static/media/benefit-4.svg": "/riksha/static/media/benefit-4.ffb23421287b092f9107de1f3bd84643.svg",
@@ -41,11 +51,11 @@
     "static/media/arrow.svg": "/riksha/static/media/arrow.4449945825cba3c0e9c007b622ff2ef5.svg",
     "static/media/arr.svg": "/riksha/static/media/arr.c30d3b6a26a22de51443141cb9e71444.svg",
     "static/media/profile.svg": "/riksha/static/media/profile.80665ecf0b46920713a920ebad076d71.svg",
-    "main.4d55a2af.css.map": "/riksha/static/css/main.4d55a2af.css.map",
-    "main.8241781b.js.map": "/riksha/static/js/main.8241781b.js.map"
+    "main.bae6326c.css.map": "/riksha/static/css/main.bae6326c.css.map",
+    "main.c2aff771.js.map": "/riksha/static/js/main.c2aff771.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d55a2af.css",
-    "static/js/main.8241781b.js"
+    "static/css/main.bae6326c.css",
+    "static/js/main.c2aff771.js"
   ]
 }
