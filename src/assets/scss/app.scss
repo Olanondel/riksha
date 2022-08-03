@@ -36,6 +36,9 @@ body {
   &__benefits {
     margin-bottom: 145px;
   }
+  &__events {
+    margin-bottom: 128px;
+  }
   &__about-company {
     margin-bottom: 228px;
   }
@@ -70,6 +73,10 @@ main {
 
     &--icon-about::after {
       background: url("../svg/titles/about-title.svg") no-repeat center;
+    }
+
+    &--icon-events::after {
+      background: url("../svg/titles/events.svg") no-repeat center;
     }
   }
 }

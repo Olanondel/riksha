@@ -5,6 +5,7 @@ import MainSlider from "./components/sections/MainSlider";
 import Benefits from "./components/sections/Benefits";
 import Gallery from "./components/sections/Gallery";
 import AboutCompany from "./components/sections/AboutCompany";
+import Events from "./components/sections/Events";
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
         <MainSlider className="app__main-slider" />
 
         <Benefits className="app__benefits" />
+
+        <Events className="app__events" />
 
         <AboutCompany className="app__about-company" />
 
