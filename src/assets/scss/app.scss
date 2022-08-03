@@ -36,6 +36,9 @@ body {
   &__benefits {
     margin-bottom: 145px;
   }
+  &__about-company {
+    margin-bottom: 228px;
+  }
   &__gallery {
     margin-bottom: 148px;
   }
@@ -47,10 +50,28 @@ main {
 }
 
 .section-title {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 60px;
-  margin-right: 16px;
+
+  &__text {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    position: relative;
+    padding: 2px 80px 2px 0;
+
+    &--icon::after {
+      display: inline-block;
+      content: "";
+      width: 64px;
+      height: 64px;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    &--icon-about::after {
+      background: url("../svg/titles/about-title.svg") no-repeat center;
+    }
+  }
 }
 
 .accent {

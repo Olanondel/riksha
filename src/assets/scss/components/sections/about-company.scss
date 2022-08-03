@@ -1,0 +1,42 @@
+.about-company {
+
+  &__container {
+    position: relative;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__about {
+    max-width: 553px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__title {
+    margin-bottom: 40px;
+  }
+  &__text {
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+  &__image {
+    max-width: 514px;
+    height: auto;
+    z-index: 2;
+  }
+
+  &__float-image {
+    max-width: 336px;
+    position: absolute;
+    top: 153px;
+    right: -289px;
+  }
+}

@@ -13,7 +13,7 @@ const Gallery = ({ className }) => {
       <div className="container">
         <div className="gallery__header">
           <div className="gallery__title">А вы уже подписались на наш <span className="accent">Instagram?</span></div>
-          <a href="https://www.instagram.com/" target="_blank" className="gallery__button my-btn"> <span className="gallery__button-icon"><InstagramIcon /></span> @riksha_sushi</a>
+          <a href="components/sections/Gallery" target="_blank" className="gallery__button my-btn"> <span className="gallery__button-icon"><InstagramIcon /></span> @riksha_sushi</a>
         </div>
         <div className="gallery__main">
           <img src={img_1} alt="food" className="gallery__item" />
