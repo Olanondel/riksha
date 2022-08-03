@@ -23,22 +23,16 @@ const MainSlider = ({ className }) => {
         className="main-slider"
       >
         <SwiperSlide className="main-slider__slide">
-          <div className="main-slider__offer">Калифорния <span className="accent">в подарок</span> при первом заказе</div>
-          <div className="main-slider__price">от 1500 ₽</div>
-
-          <div className="main-slider__button">Подробнее</div>
+          <div data-swiper-parallax="-600" className="main-slider__offer">Калифорния <span className="accent">в подарок</span> при первом заказе</div>
+          <div data-swiper-parallax="-700" className="main-slider__price">от 1500 ₽</div>
         </SwiperSlide>
         <SwiperSlide className="main-slider__slide">
-          <div className="main-slider__offer">Калифорния <span className="accent">в подарок</span> при первом заказе</div>
-          <div className="main-slider__price">от 1500 ₽</div>
-
-          <div className="main-slider__button">Подробнее</div>
+          <div data-swiper-parallax="-600" className="main-slider__offer">Калифорния <span className="accent">в подарок</span> при первом заказе</div>
+          <div data-swiper-parallax="-700" className="main-slider__price">от 1500 ₽</div>
         </SwiperSlide>
         <SwiperSlide className="main-slider__slide">
-          <div className="main-slider__offer">Калифорния <span className="accent">в подарок</span> при первом заказе</div>
-          <div className="main-slider__price">от 1500 ₽</div>
-
-          <div className="main-slider__button">Подробнее</div>
+          <div data-swiper-parallax="-600" className="main-slider__offer">Калифорния <span className="accent">в подарок</span> при первом заказе</div>
+          <div data-swiper-parallax="-700" className="main-slider__price">от 1500 ₽</div>
         </SwiperSlide>
       </Swiper>
       <div className="main-slider__prev main-slider__nav">
@@ -47,6 +41,7 @@ const MainSlider = ({ className }) => {
       <div className="main-slider__next main-slider__nav">
         <div style={{ transform: 'rotate(180deg)' }}><ArrowIcon /></div>
       </div>
+      <div className="main-slider__button">Подробнее</div>
     </div>
   );
 };

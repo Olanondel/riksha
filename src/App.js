@@ -8,6 +8,7 @@ import AboutCompany from "./components/sections/AboutCompany";
 import Events from "./components/sections/Events";
 import TabsMenu from "./components/sections/TabsMenu";
 import ComboMenu from "./components/sections/ComboMenu";
+import Category from "./components/sections/Category";
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
         <ComboMenu className="app__combo-menu" />
 
         <Events className="app__events" />
+
+        <Category className="app__category" />
 
         <AboutCompany className="app__about-company" />
 

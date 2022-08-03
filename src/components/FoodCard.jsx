@@ -8,9 +8,9 @@ const FoodCard = ({food}) => {
     <div className="food-card">
       <div className="food-card__header">
         {
-          food.tags?.length && (<div className="food-card__tags">
+          food.tags?.length ? (<div className="food-card__tags">
             {food.tags.map(tag => <Tag text={tag.text} icon={tag.icon}/>)}
-          </div>)
+          </div>) : null
         }
         { food.status && <div className={ [ "food-card__status", `food-card__status--${food.status}` ].join(' ') }>{food.status}</div> }
         { food.image && <div className="food-card__image-wrapper"><img src={ food.image } alt="food" className={ food.combo ? ['food-card__image', 'food-card__image--combo'].join(' ') :  "food-card__image"}/></div> }

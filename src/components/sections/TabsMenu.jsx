@@ -2,9 +2,9 @@ import React, {memo} from 'react';
 import FoodCard from "../FoodCard";
 
 const menus = [
-  { id: 1, title: 'Ролл "Филадельфия"', components: 'Лосось, сыр "Филадельфия", огурец, авокадо', weight: '200 грамм', calories: '130 Ккал', oldPrice: '269 ₽', targetPrice: '219 ₽ ', tags: [{ text: "Горячий ролл", icon: "hot" }], status: 'top', image: require('../../assets/images/cards/top/top-1.png')  },
-  { id: 1, title: 'Ролл "Филадельфия"', components: 'Лосось, сыр "Филадельфия", огурец, авокадо', weight: '200 грамм', calories: '130 Ккал', oldPrice: '269 ₽', targetPrice: '219 ₽ ', tags: [{ text: "Горячий ролл", icon: "hot" }], status: 'top', image: require('../../assets/images/cards/top/top-2.png')  },
-  { id: 1, title: 'Ролл "Филадельфия"', components: 'Лосось, сыр "Филадельфия", огурец, авокадо', weight: '200 грамм', calories: '130 Ккал', oldPrice: '269 ₽', targetPrice: '219 ₽ ', tags: [{ text: "Горячий ролл", icon: "hot" }], status: 'top', image: require('../../assets/images/cards/top/top-3.png')  },
+  { id: 1, title: 'Ролл "Филадельфия"', components: 'Лосось, сыр "Филадельфия", огурец, авокадо', weight: '200 грамм', calories: '130 Ккал', oldPrice: '269 ₽', targetPrice: '219 ₽ ', tags: [{ text: "Горячий ролл", icon: "hot" }, { text: "Острое", icon: "spicy" }], status: 'top', image: require('../../assets/images/cards/top/top-1.png')  },
+  { id: 1, title: 'Ролл "Сливочная креветка"', components: 'Лосось, сыр "Филадельфия", огурец, авокадо', weight: '200 грамм', calories: '130 Ккал', oldPrice: '269 ₽', targetPrice: '219 ₽ ', tags: [{ text: "Горячий ролл", icon: "hot" }], status: 'top', image: require('../../assets/images/cards/top/top-2.png')  },
+  { id: 1, title: 'Ролл "Чикен энд Чиз"', components: 'Лосось, сыр "Филадельфия", огурец, авокадо', weight: '200 грамм', calories: '130 Ккал', oldPrice: '269 ₽', targetPrice: '219 ₽ ', tags: [{ text: "Горячий ролл", icon: "hot" }, { text: "Острое", icon: "spicy" }], status: 'top', image: require('../../assets/images/cards/top/top-3.png')  },
 ]
 
 const TabsMenu = memo(({ className }) => {
