@@ -1,0 +1,124 @@
+.food-card {
+  cursor: pointer;
+  background: #fff;
+
+  &:hover {
+    .food-card__image {
+    transform: scale(1.2);
+    }
+
+    .food-card__image--combo {
+      transform: scale(1.2) rotate(-15deg);
+    }
+  }
+  
+  &__header {
+    position: relative;
+  }
+  &__tags {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 13px;
+    left: 18px;
+    max-width: 44px;
+    gap: 10px;
+    z-index: 2;
+  }
+  &__status {
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 2;
+    right: -16px;
+    top: 16px;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+
+    &--top {
+      background-color: #A1DCDC;
+    }
+    &--new {
+      background-color: #62E2B4;
+    }
+  }
+  &__image-wrapper {
+    overflow: hidden;
+  }
+  &__image {
+    object-fit: contain;
+    object-position: center;
+    transition: all .4s;
+  }
+  &__content {
+    padding: 30px 24px 34px;
+    flex: 1 1 auto;
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  &__details {
+    color: #B7B7B7;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  &__types {
+
+  }
+  &__type-btn {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    background: #F5F5F5;
+    border-radius: 4px;
+    color: #B7B7B7;
+    padding: 4px 8px;
+
+    &--active {
+      background: #E07153;
+      color: #FFFFFF;
+    }
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 4px;
+  }
+  &__components {
+    font-size: 14px;
+    line-height: 17px;
+    
+    &--combo {
+      text-decoration: underline;
+    }
+  }
+  &__footer {
+    padding: 12px 24px 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__prices {}
+  &__old-price {
+    font-size: 14px;
+    line-height: 17px;
+    color: #B7B7B7;
+    text-decoration: line-through;
+  }
+  &__target-price {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 26px;
+  }
+}

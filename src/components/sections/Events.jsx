@@ -1,5 +1,5 @@
 import React, {memo} from 'react';
-import SectionTitle from "../SectionTitle";
+import SectionTitle from "../ui/SectionTitle";
 
 const Events = memo(({ className }) => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import MenuIconSelector from "./MenuIconSelector";
+import MenuIconSelector from "../MenuIconSelector";
 
 const MenuItem = ({icon, text}) => {
   return (

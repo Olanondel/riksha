@@ -18,7 +18,8 @@ html, body, #root, .app {
 body {
   font: 16px "TT Interfaces";
   color: #1B1B1B;
-  background: #E5E5E5;
+  background: #FBFBFB;
+  overflow-x: hidden;
 }
 
 .container {
@@ -35,6 +36,12 @@ body {
   &__main-slider {}
   &__benefits {
     margin-bottom: 145px;
+  }
+  &__tabs-menu {
+    margin-bottom: 72px;
+  }
+  &__combo-menu {
+    margin-bottom: 100px;
   }
   &__events {
     margin-bottom: 128px;
@@ -77,6 +84,9 @@ main {
 
     &--icon-events::after {
       background: url("../svg/titles/events.svg") no-repeat center;
+    }
+    &--icon-combo::after {
+      background: url("../svg/titles/combo.svg") no-repeat center;
     }
   }
 }

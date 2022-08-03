@@ -1,7 +1,7 @@
 import React from 'react';
 import img_1 from 'assets/images/about/about-1.jpg'
 import img_2 from 'assets/images/about/about-2.jpg'
-import SectionTitle from "../SectionTitle";
+import SectionTitle from "../ui/SectionTitle";
 
 const AboutCompany = ({ className }) => {
   return (

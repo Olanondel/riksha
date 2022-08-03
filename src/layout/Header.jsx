@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from 'assets/images/header_logo.png'
 import Cart from "../components/cart/Cart";
 import {ReactComponent as ProfileIcon} from "assets/svg/profile.svg";
-import MenuItem from "../components/MenuItem";
+import MenuItem from "../components/ui/MenuItem";
 import {menu} from "../data";
 
 const Header = () => {

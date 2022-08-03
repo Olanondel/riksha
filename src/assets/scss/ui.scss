@@ -3,7 +3,18 @@
   color: #fff;
   cursor: pointer;
 
+  &:hover {
+    background-color: #b94425;
+  }
+
   &__icon {
     margin-right: 16px;
+  }
+
+  &--classic {
+    padding: 13px 59px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
   }
 }
